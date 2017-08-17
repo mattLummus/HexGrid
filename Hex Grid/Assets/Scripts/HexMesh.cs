@@ -35,6 +35,8 @@ public class HexMesh : MonoBehaviour {
 		hexMesh.triangles = triangles.ToArray();
 		hexMesh.colors    = colors.ToArray();
 		hexMesh.RecalculateNormals();
+
+		meshCollider.sharedMesh = hexMesh;
 	}
 
 	void TriangulateCell (HexCell cell) {
@@ -48,8 +50,6 @@ public class HexMesh : MonoBehaviour {
 			);
 			AddTriangleColor(cell.color);
 		}
-
-		meshCollider.sharedMesh = hexMesh;
 	}
 
 	void AddTriangle (Vector3 v1, Vector3 v2, Vector3 v3) {

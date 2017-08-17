@@ -2,14 +2,13 @@
 using UnityEngine.UI;
 
 public class HexGrid : MonoBehaviour {
-	HexCell[] cells;
-
 	public int width  = 6;
 	public int height = 6;
 
 	public HexCell cellPrefab;
 	public Text    cellLabelPrefab;
 
+	HexCell[] cells;
 	Canvas gridCanvas;
 	HexMesh hexMesh;
 

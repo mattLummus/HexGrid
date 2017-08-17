@@ -1,16 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HexMapEditor.cs">
-    <Files>
-      <File FileName="Assets\Scripts\HexCell.cs" Line="7" Column="2" />
-      <File FileName="Assets\Scripts\Editor\HexCoordinatesDrawer.cs" Line="14" Column="47" />
-      <File FileName="Assets\Scripts\HexGrid.cs" Line="34" Column="3" />
-      <File FileName="Assets\Scripts\HexCoordinates.cs" Line="58" Column="4" />
-      <File FileName="Assets\Scripts\HexMesh.cs" Line="18" Column="3" />
-      <File FileName="Assets\VertexShader.shader" Line="40" Column="31" />
-      <File FileName="Assets\Scripts\HexMapEditor.cs" Line="7" Column="2" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
